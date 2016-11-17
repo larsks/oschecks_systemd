@@ -1,2 +1,8 @@
 oschecks
-dbus-python
+
+# This is required, and will generally already be installed  on your
+# system.  Unfortunately, there are apparently problems with how the 
+# dbus-python package is installed on RHEL 7 (and derivatives) that
+# make it invisible to setuptools, which makes everything fall apart.
+#
+#dbus-python
